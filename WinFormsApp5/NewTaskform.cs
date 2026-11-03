@@ -68,5 +68,10 @@ namespace WinFormsApp7
         {
 
         }
+
+        private void page_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

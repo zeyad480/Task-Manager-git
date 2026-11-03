@@ -1,3 +1,5 @@
+using WinFormsApp7;
+
 namespace WinFormsApp5
 {
     internal static class Program

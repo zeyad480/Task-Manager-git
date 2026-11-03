@@ -132,6 +132,7 @@ namespace WinFormsApp7
             page.Name = "page";
             page.Size = new Size(1120, 1055);
             page.TabIndex = 0;
+            page.Paint += page_Paint;
             // 
             // sectionTitle
             // 
@@ -606,7 +607,7 @@ namespace WinFormsApp7
             // 
             titleErrorProvider.ContainerControl = this;
             // 
-            // Form1
+            // NewTaskform
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -617,7 +618,7 @@ namespace WinFormsApp7
             Font = new Font("Segoe UI", 9F);
             Margin = new Padding(3, 4, 3, 4);
             MinimumSize = new Size(489, 918);
-            Name = "Form1";
+            Name = "NewTaskform";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Add / Edit task";
             page.ResumeLayout(false);
